@@ -2,7 +2,7 @@ import requests
 from groq import Groq
 
 #  Correct API key and URL
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""  # Create a groq API key
 client = Groq(api_key=GROQ_API_KEY)
 
 def convert_natural_language_to_sql(user_query):
