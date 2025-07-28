@@ -46,7 +46,7 @@ Set up a MySQL database
 Create a local or remote MySQL instance and populate it using the sample data in sql/setup.sql.
 
 ### LLM Integration
-Use an LLM (e.g., OpenAI API) to convert natural language queries into SQL. Configure the API key and access in llm_module/query_translator.py.
+Use an LLM (e.g., grok API) to convert natural language queries into SQL. Configure the API key and access in llm_module/query_translator.py.
 
 ### Develop Flask Backend
 The Flask app (backend/app.py) acts as the middleware between the frontend, the LLM, and the database.
